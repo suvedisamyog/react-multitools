@@ -7,5 +7,6 @@ export const ROUTES_CONFIG = {
     CURRENCY_CONVERTER: 'CurrencyConverter',
     GITHUB: 'GitProfile',
     NUMBER_GAME: 'NumberGame',
+    TEXT_UTILS: 'TextUtils',
 
   };

@@ -42,7 +42,7 @@ const Header = () => {
                   }
                   to={ROUTES_CONFIG.BG_CHANGER}
                 >
-                  Change Background
+                  ChangeBG
                 </NavLink>
               </li>
               <li>
@@ -52,7 +52,7 @@ const Header = () => {
                   }
                   to={ROUTES_CONFIG.COUNTER}
                 >
-                  Counter App
+                  CounterAPp
                 </NavLink>
               </li>
               <li>
@@ -62,7 +62,17 @@ const Header = () => {
                   }
                   to={ROUTES_CONFIG.NUMBER_GAME}
                 >
-                  Guess Number
+                  NumberGuss
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className={({ isActive }) =>
+                    `${navLinkStyles.base} ${isActive ? navLinkStyles.active : navLinkStyles.inactive}`
+                  }
+                  to={ROUTES_CONFIG.TEXT_UTILS}
+                >
+                  TextUtils
                 </NavLink>
               </li>
               <li>
@@ -72,7 +82,7 @@ const Header = () => {
                   }
                   to={ROUTES_CONFIG.GITHUB}
                 >
-                  My Git
+                  PROFILE
                 </NavLink>
               </li>
             </ul>

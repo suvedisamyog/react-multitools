@@ -10,6 +10,7 @@ import MyGit from "./components/MyGit/MyGit";
 import { ROUTES_CONFIG } from "./components/RoutesConfig";
 import { githubInfoLoader } from "./hooks/githubInfoLoader";
 import Game from "./components/NumberGussGame/GussNumber";
+import TextUtils from "./components/TextUtils/TextUtils";
 
 
 export  {
@@ -24,5 +25,6 @@ export  {
     ROUTES_CONFIG,
     MyGit,
     githubInfoLoader,
-    Game
+    Game,
+    TextUtils
 }
