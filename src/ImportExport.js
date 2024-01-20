@@ -9,6 +9,7 @@ import Header from "./components/Header/Header";
 import MyGit from "./components/MyGit/MyGit";
 import { ROUTES_CONFIG } from "./components/RoutesConfig";
 import { githubInfoLoader } from "./hooks/githubInfoLoader";
+import Game from "./components/NumberGussGame/GussNumber";
 
 
 export  {
@@ -23,4 +24,5 @@ export  {
     ROUTES_CONFIG,
     MyGit,
     githubInfoLoader,
+    Game
 }

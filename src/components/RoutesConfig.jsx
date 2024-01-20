@@ -6,4 +6,6 @@ export const ROUTES_CONFIG = {
     PASSWORD_GENERATOR: 'PasswordGenerator',
     CURRENCY_CONVERTER: 'CurrencyConverter',
     GITHUB: 'GitProfile',
+    NUMBER_GAME: 'NumberGame',
+
   };

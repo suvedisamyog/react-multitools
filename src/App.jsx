@@ -1,5 +1,5 @@
 import './index.css';
-import { CurrencyConverter,PasswordGenerator,BgChanger,Counter,Layout,ROUTES_CONFIG, MyGit,githubInfoLoader} from './ImportExport';
+import { CurrencyConverter,PasswordGenerator,BgChanger,Counter,Layout,ROUTES_CONFIG, MyGit,githubInfoLoader, Game} from './ImportExport';
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements} from 'react-router-dom';
 
 
@@ -16,6 +16,7 @@ function App() {
       <Route path={ROUTES_CONFIG.BG_CHANGER} element={<BgChanger />} />
       <Route path={ROUTES_CONFIG.PASSWORD_GENERATOR} element={<PasswordGenerator />} />
       <Route path={ROUTES_CONFIG.CURRENCY_CONVERTER} element={<CurrencyConverter />} />
+      <Route path={ROUTES_CONFIG.NUMBER_GAME} element={<Game />} />
       <Route 
          path={ROUTES_CONFIG.GITHUB} 
          element={<MyGit />}  
